@@ -5,7 +5,6 @@ import {
     NativeEventEmitter,
     NativeModules
 } from 'react-native';
-import YouTube from 'react-native-youtube';
 import YoutubePlayer from "react-native-youtube-iframe";
 const {FLWYModule} = NativeModules;
 
@@ -36,7 +35,6 @@ ApiScreen = ({route}) => {
             />
         </View>
     )
-
 }
 
 export default ApiScreen;
