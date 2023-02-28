@@ -80,7 +80,7 @@ YoutubeScreen = () => {
     return(
         <WebView 
             ref = {(ref) => (this.webView = ref)}
-            source={{uri: "http://www.google.com"}}
+            source={{uri: "http://www.youtube.com"}}
             onNavigationStateChange={this.handleWebViewNavigationStateChange}
         />
     )
